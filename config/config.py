@@ -32,4 +32,7 @@ class Config:
     # Visualization
     SAMPLE_INTERVAL = 10
     NUM_EXAMPLES = 10
-
+    
+    # Metrics
+    METRICS_DIR = BASE_DIR / "metrics"
+    METRICS_DIR.mkdir(parents=True, exist_ok=True)
